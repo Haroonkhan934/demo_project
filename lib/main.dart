@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.teal,
-          title: const Text("App developer(MHK)"),
+          title: const Text("App developer(MHK)" , style: TextStyle(fontSize: 12),),
         ),
         body: SafeArea(
           child: Column(
